@@ -1,0 +1,50 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu   -I"C:\Users\Visual\Downloads\prog gpu\tp2\tp2\/External Libraries/FREEGLUT/include" -I"C:\Users\Visual\Downloads\prog gpu\tp2\tp2\/External Libraries/GLEW/include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\x64\Debug\kernel.cu.obj" "C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu" 
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(477): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* m = "";
+                      ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(480): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 1: m = "CPU mode"; break;
+                      ^
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(481): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 2: m = "GPU mode"; break;
+                      ^
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(482): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 3: m = "GPU2 mode"; break;
+                      ^
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(483): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 4: m = "GPU3 mode"; break;
+                      ^
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(477): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            char* m = "";
+                      ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(480): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 1: m = "CPU mode"; break;
+                      ^
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(481): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 2: m = "GPU mode"; break;
+                      ^
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(482): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 3: m = "GPU2 mode"; break;
+                      ^
+  
+C:\Users\Visual\Downloads\prog gpu\tp2\tp2\tp2\kernel.cu(483): warning #2464-D: conversion from a string literal to "char *" is deprecated
+            case 4: m = "GPU3 mode"; break;
+                      ^
+  
+  kernel.cu
+  tmpxft_00002338_00000000-7_kernel.cudafe1.cpp
+  tp2.vcxproj -> C:\Users\Visual\Downloads\prog gpu\tp2\tp2\x64\Debug\tp2.exe
