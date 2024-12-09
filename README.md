@@ -7,6 +7,8 @@
 ✔️ 1) Write a CPU version of the Julia set fractals. The user can change the seed by dragging the  mouse, and increment/decrement the precision by hitting special keys. 
 ✔️ 2) Write an equivalent GPU version of the Julia set fractals. Use 2D thread and 2D block  indexing. The user can toggle between the CPU mode and the GPU mode. 
 ✔️ 3) GPU version 2: use pinned host memory for faster data transfer.
+|
+KEYBIND: NUMPAD_1 NUMPAD_2 NUMPAD_3 (select question 1 2 3)           [+] [-] (changer la précision)
 
 
 
@@ -16,6 +18,8 @@
 ✔️ 2) GPU version 1: each thread is responsible for one pixel of the output image. Use pinned host memory for fast data transfers.
 ✔️ 3) GPU version 2: load the sphere array into the constant memory of the GPU.
 ✔️ 4) GPU version 3: use streams for task parallelization. 4 streams may be a good choice. Each stream processes a separate slice of the image.
+|
+KEYBIND: NUMPAD_1 NUMPAD_2 NUMPAD_3 NUMPAD_4 (select question 1 2 3 4)
 
 
 
@@ -24,6 +28,8 @@
 ✔️ 1) Write a CPU version of the Bug algorithm. The edges should wrap around so that you do not need to worry about borders and corners.
 ✔️ 2) GPU version 1. Allocate two grids on the device: grid1 and grid2. Copy the initial grid from the host to grid1. Then compute on the device from grid1 to grid2 and fetch grid2 back for the OpenGL rendering call. At the next frame, compute from grid2 back to grid1 and fetch grid1 back for the OpenGL rendering call, and so on.
 ✔️ 3) GPU version 2: use shared memory for faster memory access. In each thread block, preload a “tile”, i.e. a subgrid of cells, into shared memory and calculate the next generation of that tile (you need to figure out how to resolve the problem of computing the tile borders).
+|
+KEYBIND: NUMPAD_1 NUMPAD_2 NUMPAD_3 (select question 1 2 3)
 
 
 
